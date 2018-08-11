@@ -1,0 +1,7 @@
+.idea
+
+/build
+/node_modules
+/src/assets_compiled
+/src/data/manifest.json
+

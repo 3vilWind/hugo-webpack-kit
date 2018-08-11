@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{{ index .Site.Data.manifest "main.css" | relURL }}">
+</head>
+<body>>
+    {{ block "main" . }}
+    {{ end }}
+    <script src="{{ index .Site.Data.manifest "main.js" | relURL }}"></script>
+</body>
+</html>
