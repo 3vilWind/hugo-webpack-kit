@@ -15,17 +15,17 @@
 * Sourcemaps
 * Live-reloading by hugo server
 
-##Installation
+## Installation
 1. [NPM](https://www.npmjs.com/get-npm) & [NodeJS](https://nodejs.org/en/download/), [Hugo](https://gohugo.io/) have to be installed in your system.
 1. Clone this repo.
 1. `npm install`
 
-##Usage
+## Usage
 `npm run server` to start development server.
 
 `npm run build` to build for production.
 
-##Structure
+## Structure
 ```
 ├── src                                 // All sites`s sources
 │   ├── archetypes                      // Templates used when creating new content (Hugo)
