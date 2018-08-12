@@ -12,7 +12,6 @@ module.exports = {
         INPUT_PATH + '/js/main.js',
         INPUT_PATH + '/sass/styles.sass',
         INPUT_PATH + '/css/styles.css'
-
     ],
     output: {
         path: path.resolve(__dirname, OUTPUT_PATH, PUBLIC_DIR),
