@@ -5,7 +5,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 const common = require('./webpack.config.common');
 
-const HUGO_ADDITIONAL_ARGUMENTS = '-D';
+const HUGO_ADDITIONAL_ARGUMENTS = '-DF';
 
 module.exports = merge(common, {
     output: {
